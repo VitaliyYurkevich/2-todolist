@@ -9,7 +9,9 @@ function App() {
       {id: 3, title: '231', isDone: true}
     ]
 
-const RemoveTask = () =>
+const RemoveTask = (id:number) => {
+      let deleteTask = tasks.filter((t)=>{t => t.id !== id})
+}
 
 
 
