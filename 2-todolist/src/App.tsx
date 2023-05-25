@@ -13,7 +13,7 @@ const RemoveTask = (id:number) => {
       let deleteTask = tasks.filter((t)=>{t => t.id !== id})
 }
 
-
+    console.log('')
 
 
     return (
