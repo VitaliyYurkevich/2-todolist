@@ -6,7 +6,7 @@ export type TasksType = {
     title: string
     isDone: boolean
 }
-
+console.log('')
 
 export type TodoListType = {
     title: string
